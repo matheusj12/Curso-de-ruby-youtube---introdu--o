@@ -1,0 +1,63 @@
+result = ''
+
+loop do #inicio do ciclo 
+    puts 'selecione uma das opções'
+    #opções 
+    puts '1-Multiplicar'
+    puts '2-Dividir'
+    puts '3-Adicionar'
+    puts '4-Subtrair'
+    puts '5-sair'
+    
+    option = gets.chomp.to_i
+
+    if option == 1
+        puts 'digite valor 1'
+        v1 = gets.chomp.to_i
+        puts 'digite valor 2'
+        v2 = gets.chomp.to_i
+        resp = (v1 * v2)
+        puts "resultado: #{resp}"
+    
+    end  
+    if option == 2
+        puts 'digite valor 1'
+        v1 = gets.chomp.to_i
+        puts 'digite valor 2'
+        v2 = gets.chomp.to_i
+        resp = (v1 / v2)
+        puts "resultado: #{resp}"
+    
+    end
+    if option == 3
+        puts 'digite valor 1'
+        v1 = gets.chomp.to_i
+        puts 'digite valor 2'
+        v2 = gets.chomp.to_i
+        resp = (v1 + v2)
+        puts "resultado: #{resp}"
+    end 
+    if option == 4
+        puts 'digite valor 1'
+        v1 = gets.chomp.to_i
+        puts 'digite valor 2'
+        v2 = gets.chomp.to_i
+        resp = (v1 - v2)
+        puts "resultado: #{resp}"
+
+     
+    elsif option == 5
+        puts "saindo...."
+        system "clear"
+        break
+    else
+        option = 'Opção invalida'
+    end 
+end        
+      
+
+
+
+    
+    
+
