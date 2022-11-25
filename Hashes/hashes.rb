@@ -1,0 +1,2 @@
+h = {"a" => "1", "b" => "2"} # "a" siginfica o valor = passando a index "1" diferente do vetores e arrays que os index seguem um padrão em sequencia começando semprese de 0
+puts h["a"] printando a hashe 
